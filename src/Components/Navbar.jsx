@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import Logo from '../images/logo.png'
 import {links} from '../data'
@@ -6,23 +7,28 @@ import './navbar.css'
 
 
 const Navbar = () => {
+  const [isNavShowing, setIsNavShowing] = useState(false);
+
+
   return (
     <nav>
         <div className="container nav__container">
             <Link to="/" className='logo'>
                 <img src={Logo} alt="nav Logo" />
             </Link>
-            <ul className='nav_links'>
+            <ul className={'nav__links ${isNavShowing ? ' show__nav' : 'hide__Nav'}'}>
               {
                 links.map(({name, path}, index) => {
                   return (
                     <li>
-                    <NavLink to={path}>{name}</NavLink>
+                    <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' : 
+                    ''}>{name}</NavLink>
                     </li>
                   )
                 })
               }
             </ul>
+
             <button className="nav__toggle_btn">
               <GoThreeBars/>
 
