@@ -1,7 +1,7 @@
 import Image from '../images/values.jpg'
 import SectionHead from './SectionHead'
 import {GiCutDiamond} from 'react-icons/gi'
-import { values } from '../data'
+import {values} from '../data'
 import Card from '../UI/Card'
 
 
@@ -20,7 +20,7 @@ const Values = () => {
                     <div className="values__wrapper">
                         {
                             values.map(({id, icon,title, desc}) => {
-                                return <Card className="values__value">
+                                return <Card key={id} className="values__value">
                                     <span>{icon}</span>
                                     <h4>{title}</h4>
                                     <small>{desc}</small>

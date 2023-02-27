@@ -13,6 +13,7 @@ const Home = () => {
     <Programs/>
     <Values/>
     <FAQs/>
+    <Testimonials/>
     </>
   )
 }
