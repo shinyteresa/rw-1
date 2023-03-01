@@ -55,10 +55,6 @@
     position: relative;
 }
 
-.main__header-right:hover .main__header-circle {
-    filter: blur(15px);
-}
-
 
 
 /*==========PROGRAMS====================*/

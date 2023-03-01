@@ -1,3 +1,4 @@
+
 import {Link} from 'react-router-dom'
 import './notFound.css'
 
@@ -13,4 +14,4 @@ const NotFound = () => {
   )
 }
 
-export default notFound
+export default NotFound
