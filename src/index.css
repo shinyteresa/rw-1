@@ -30,12 +30,13 @@
     --transition: all 500ms ease
 }
 
+/*GENERAL STYLES*/
 body {
     font-family: 'Montserrat', sans-serif;
     color: var(--color-gray-200);
     line-height: 1.7;
     overflow: hidden;
-    background: var(--color-gray-600);
+    background-color: var(--color-gray-600);
 }
 
 .container {

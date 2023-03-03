@@ -1,7 +1,6 @@
 import SectionHead from "./SectionHead"
 import {ImQuotesLeft} from 'react-icons/im'
 import Card from "../UI/Card"
-import {IoIosArrowDropleftCircle, IoIoArrowDroprightCircle} from 'react-icons/io'
 import { testimonials } from "../data"
 import { useState } from "react"
 
@@ -11,8 +10,8 @@ import { useState } from "react"
 
 
 const Testimonials = () => {
-    const [index, setIndex] = useState(0)
-    const {name, quote, job, avtar} = testimonials[index];
+    const [index] = useState(0)
+    const {name, job} = testimonials[index];
 
 
   return (

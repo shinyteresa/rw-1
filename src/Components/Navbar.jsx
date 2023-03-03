@@ -11,7 +11,6 @@ import './navbar.css'
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false);
 
-
   return (
     <nav>
         <div className="container nav__container">
@@ -24,8 +23,8 @@ const Navbar = () => {
                 links.map(({name, path}, index) => {
                   return (
                     <li key={index}>
-                    <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' : 
-                    ''}  onClick={() => setIsNavShowing(prev => !prev)}>{name}</NavLink>
+                    <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' :
+                    ""}  onClick={() => setIsNavShowing(prev => !prev)}>{name}</NavLink>
                     </li>
                   )
                 })

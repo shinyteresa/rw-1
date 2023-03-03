@@ -16,7 +16,7 @@ const Footer = () => {
                 <Link to="/" className='logo'>
                     <img src="{Logo}" alt="Footer Logo" />
                 </Link>
-                <p> 
+                <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque odit explicabo doloribus molestiae necessitatibus natus minus quam beatae nihil iure in, id, cumque atque tempora similique, nemo provident vel nisi.
                 </p>
                 <div className="footer__socials">

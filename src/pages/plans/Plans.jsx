@@ -4,6 +4,7 @@ import Card from '../../UI/Card'
 import {plans} from '../../data'
 
 
+
 import './plans.css'
 
 
@@ -16,11 +17,12 @@ const Plans = () => {
   <section className="Plans">
     <div className="container plans__container">
       {
-        Plans.map(({id, name, desc, price, features}) => {
+        plans.map(({id, name, desc, price, features}) => {
           return <Card key={id} className='plan'>
             <h3>{name}</h3>
             <small>{desc}</small>
-            <h1>{'$${price}'}</h1><h2>/mo</h2>
+            <h1>{'$${price}'}</h1>
+            <h2>/mo</h2>
             <h4>Features</h4>
             {
               features.map(({feature, available}, index) => {

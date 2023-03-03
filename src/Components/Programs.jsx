@@ -11,7 +11,7 @@ const Programs = () => {
   return (
     <section className="programs">
         <div className="container programs__container">
-           <sectionHead icon={<FaCrown/>} title="Programs"/>
+           <SectionHead icon={<FaCrown/>} title="Programs"/>
 
         </div>
         <div className="programs__wrapper">
