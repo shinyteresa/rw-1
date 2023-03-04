@@ -88,7 +88,7 @@ nav {
     .nav__links li {
         height: 4rem;
         width: 100%;
-        box-sizing: -2rem 2rem 5rem rgba(0, 0, 0, 0.4);
+        box-sizing: -2rem 2rem 5rem rgba(0, 0, 0, 0.5);
         animation: navAnimation 600ms ease forwards;
         transform: rotateX(90deg);
         opacity: 0;
@@ -141,3 +141,13 @@ animation-delay: 400ms;
         display: none;
     }
 }
+/*@media screen and (max-width: 1024px){
+.nav__links {
+    top: 7%;
+    right: 75px;
+    flex-direction: row;
+    }
+    .nav__links li a {
+    padding: 1rem 2rem 1rem 2rem;
+    }
+}*/

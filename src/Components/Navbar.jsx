@@ -17,14 +17,13 @@ const Navbar = () => {
             <Link to="/" className='logo' onClick={() => setIsNavShowing(false)}>
                 <img src={Logo} alt="nav Logo" />
             </Link>
-            <ul className={
-            `${isNavShowing ? 'show__Nav nav__links' : 'hide__Nav nav__links'}` } >
+            <ul className={`nav__links ${isNavShowing ? 'show__nav' : 'hide__nav'}`}>
               {
                 links.map(({name, path}, index) => {
                   return (
                     <li key={index}>
                     <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' :
-                    ""}  onClick={() => setIsNavShowing(prev => !prev)}>{name}</NavLink>
+                    ''}  onClick={() => setIsNavShowing(prev => !prev)}>{name}</NavLink>
                     </li>
                   )
                 })
