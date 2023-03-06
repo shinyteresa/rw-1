@@ -239,7 +239,7 @@ section {
     }
     
     .header__container {
-        width: 76%;
+        /*width: 76%;*/
         line-height: 1.3;
     }
 

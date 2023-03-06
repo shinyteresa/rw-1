@@ -10,7 +10,7 @@ import './contact.css'
 const Contact = () => {
   return (
     <>
-    <Header title="Get In Touch" imge={HeaderImage}>
+    <Header title="Get In Touch" image={HeaderImage}>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate possimus provident facilis vel expedita maiores, hic corporis veniam a culpa pariatur odio illum ad dolore ea rerum. Error, officiis nihil?
     </Header>
      <section className="contact">
