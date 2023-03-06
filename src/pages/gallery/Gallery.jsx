@@ -6,7 +6,7 @@ const Gallery = () => {
   const galleryLength = 15;
   const images = []
 
-  for(let i = 0; i <= galleryLength; i++) {
+  for(let i = 1; i <= galleryLength; i++) {
       images.push(require(`../../images/gallery${i}.jpg`))
   }
 
@@ -20,9 +20,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore odio maiores ad
     <section className="gallery">
       <div className="container gallery__container">
         {
-          images.map((index, _image) => {
+          images.map((image, index) => {
             return <articel key={index}>
-              <img src={Image} alt={'Gallery Image ${index + 1}'} />
+              <img src={image} alt={`Gallery Image ${index + 1}`} />
             </articel>
           })
         }

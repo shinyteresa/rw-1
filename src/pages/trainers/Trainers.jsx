@@ -25,7 +25,7 @@ const Trainers = () => {
                 {icon: <BsInstagram/>, link: socials[0]},
                 {icon: <AiOutlineTwitter/>, link: socials[1]},
                 {icon: <FaFacebookF/>, link: socials[2]},
-                {icon: <FaLinkedinIn/>, link: socials[3]},
+                {icon: <FaLinkedinIn/>, link: socials[3]}
               ]
             }/>
           })
