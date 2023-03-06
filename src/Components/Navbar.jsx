@@ -4,7 +4,6 @@ import Logo from '../images/logo.png'
 import {links} from '../data'
 import {GoThreeBars} from 'react-icons/go'
 import {MdOutlineClose} from 'react-icons/md'
-
 import './navbar.css'
 
 

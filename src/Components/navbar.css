@@ -12,7 +12,7 @@ nav {
 
 /*only show on medium and small screens*/
 
-.nav__toggle-btn {
+.nav__toggle_btn {
     display: none;
 }
 
@@ -61,14 +61,14 @@ nav {
 
 /*MEDIA QUERIES (medium and small screens) */
 @media screen and (max-width: 1024px) {
-    .nav__toggle-btn {
+    .nav__toggle_btn {
         display: inline-block;
         background: transparent;
         font-size: 1.8rem;
         cursor: pointer;
 
     }
-    .nav__toggle-btn svg {
+    .nav__toggle_btn svg {
         color: var(--color-gray-100);
     }
 
@@ -121,7 +121,7 @@ animation-delay: 400ms;
     @keyframes navAnimation {
         to {
             transform: rotateX(0);
-            opacity: 1;
+            opacity: 10;
         }
     }
 
