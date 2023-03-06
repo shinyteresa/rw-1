@@ -1,5 +1,5 @@
 import Header from '../../Components/Header'
-import HeaderImage from '../../images/header_bg_4.jpg'
+import HeaderImage from '../../images/header_bg_5.jpg'
 import { trainers } from '../../data'
 import {BsInstagram} from 'react-icons/bs'
 import { FaLinkedinIn } from 'react-icons/fa'

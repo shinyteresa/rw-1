@@ -35,7 +35,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: var(--color-gray-200);
     line-height: 1.7;
-    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
     background: var(--color-gray-600);
 }
 

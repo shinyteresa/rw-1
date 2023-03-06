@@ -197,7 +197,7 @@ section {
     justify-content: center;
 }
 
-.Card.testimonial {
+.card.testimonial {
     position: relative;
     text-align: left;
     margin-top: 5rem;
