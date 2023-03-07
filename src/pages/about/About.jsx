@@ -34,10 +34,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, rerum excepturi. 
 
    <section className="about__Vision">
      <div className="container about__Vision-container">
-      <div className="about__section-image">
-        <img src={VisionImage} alt="Our Vision Image" />
-      </div>
-      <div className="about__section-content">
+     <div className="about__section-content">
         <h1>Our Vision</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores possimus fugiat soluta labore, delectus incidunt ducimus unde! Eaque reiciendis incidunt quos iusto maiores doloribus veritatis odit, quidem laudantium fugiat dolorum.
@@ -46,11 +43,14 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, rerum excepturi. 
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque iusto sunt magni ab? Dolor recusandae deserunt alias aut aliquid ducimus deleniti, possimus totam repellendus amet nobis necessitatibus quis nemo praesentium?
         </p>
         </div>
-        <div className="about__section-image">
-          <img src={VisionImage} alt="Our Vision Image" />
-        </div>
+      <div className="about__section-image">
+        <img src={VisionImage} alt="Our Vision Image" />
+      </div>
+  
+        
        </div>
    </section>
+
    <section className="about__mission">
      <div className="container about__mission-container">
       <div className="about__section-image">

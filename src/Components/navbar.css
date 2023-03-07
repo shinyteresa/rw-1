@@ -61,7 +61,7 @@ nav {
     margin-top: 0.9rem;
 }
 
-/*MEDIA QUERIES (medium and small screens) 
+/*MEDIA QUERIES (medium and small screens) */
 @media screen and (max-width: 600px) {
     .nav__toggle_btn {
         display: inline-block;

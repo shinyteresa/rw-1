@@ -6,6 +6,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    width: 100%;
 }
 
 :root {
@@ -35,9 +36,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: var(--color-gray-200);
     line-height: 1.7;
-    overflow-y: scroll;
-    overflow-x: hidden;
     background: var(--color-gray-600);
+    overflow: auto;
+
 }
 
 .container {
@@ -226,8 +227,7 @@ section {
 
 /*MEDIA QUERIES (small screens) */
 
-@media screen and (max-width:
-1024px) {
+@media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
     }
@@ -240,7 +240,7 @@ section {
     }
     
     .header__container {
-        /*width: 76%;*/
+        width: 76%;
         line-height: 1.3;
     }
 
@@ -272,4 +272,5 @@ section {
             line-height: 1.3;
 
         }
+
     }
