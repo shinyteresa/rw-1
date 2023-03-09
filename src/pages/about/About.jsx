@@ -43,11 +43,10 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, rerum excepturi. 
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque iusto sunt magni ab? Dolor recusandae deserunt alias aut aliquid ducimus deleniti, possimus totam repellendus amet nobis necessitatibus quis nemo praesentium?
         </p>
         </div>
-      <div className="about__section-image">
+        <div className="about__section-image">
         <img src={VisionImage} alt="Our Vision Image" />
       </div>
-  
-        
+
        </div>
    </section>
 

@@ -39,14 +39,18 @@
     cursor: pointer;
 }
 
+.plans .btn.lg {
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
 
 
 
 
 
 
-
-/*MEDIA QUERIES (small screens)*/
+/*MEDIA QUERIES (small screens)
 @media screen and (max-width: 1024px) {
     .plans__container {
         grid-template-columns: 1fr 1fr;
@@ -56,7 +60,7 @@
 
 
 
-/*MEDIA QUERIES (small screens)*/
+MEDIA QUERIES (small screens)
 @media screen and (max-width: 600px) {
    .plans__container {
     grid-template-columns: 1fr;
@@ -68,5 +72,5 @@
 }
 
 
-}
+}*/
 

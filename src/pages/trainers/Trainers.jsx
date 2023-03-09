@@ -14,10 +14,10 @@ const Trainers = () => {
   return (
     <>
     <Header title="Our Trainers" image={HeaderImage}>
-      hbsduwg sfdhbauweihf sjhfbwlIAEHF SBCFJSDHFI
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sed doloremque blanditiis pariatur voluptatum fuga, facilis dicta quae autem eos placeat aut temporibus eaque laborum, provident earum ad accusantium similique.
     </Header>
     <section className="trainers">
-      <div className="container trainers_container">
+      <div className="trainers__container container">
         {
           trainers.map(({id, image, name, job, socials}) => {
             return <Trainer key={id} image={image} name={name} job={job} socials={

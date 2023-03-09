@@ -16,7 +16,6 @@
 }
 
 .main__header-left {
-
     margin-top: -3rem;
 }
 
@@ -32,7 +31,7 @@
 
 .main__header-left p {
     margin: 1rem 0 3.5rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .main__header-right {
@@ -51,15 +50,22 @@
     transition: var(--transition);
 }
 
-.main__header-image {
+.main__header-images {
     position: relative;
 }
 
+.main__header-right:hover .main__header-circle{
+    filter: blur(15px);
+}
 
 
 /*==========PROGRAMS====================*/
 .programs {
     margin-top: 4rem;
+}
+
+.programs__container {
+    
 }
 
 .programs__wrapper {
@@ -126,7 +132,7 @@
 
 
 
-section {
+/*section {
     margin-top: 10rem;
 }
 
@@ -137,12 +143,12 @@ section {
 }
 
 .section__head span {
-    background: var(--color-gray-100);
+    background: var(--color-gray-500);
     padding: 0.8rem;
     border-radius: 1rem;
     color: var(--color-secondary);
     font-size: 1.5rem;
-}
+}*/
 
 
 
@@ -264,7 +270,7 @@ footer {
 
 .footer__container {
     display: grid;
-    grid-template-columns: 26rem 1fr 1fr 1fr;
+    grid-template-columns: 17rem 1fr 1fr 1fr;
     gap: 6rem;
 }
 
@@ -316,177 +322,6 @@ footer {
     border-top: 2px solid var(--color-primary-variant);
     margin-top: 5rem;
 }
-
-
- /* MEDIA QUERIES (small screens)*/
- @media screen and (max-width:1024px) {
-    /* MAIN HEADER */
-    .main__header {
-        height: fit-content;
-        padding: 12rem 0;
-    }
-
-    .main__header-container {
-        gap: 0;
-    }
-
-    .main__header-circle {
-        width: 16rem;
-        height: 16rem;
-    }
-
-
-    /*PROGRAMS*/
-    .values__wrapper {
-        grid-template-columns: 1fr 1fr;
-    }
-
-
-    /*VALUES*/
-    .values__container {
-        grid-template-columns: 1fr;
-        justify-content: center;
-        gap: 4rem;
-    }
-    .values__wrapper {
-        gap: 4rem 3rem;
-    }
-
-    .values__image {
-        display: none;
-    }
-
-
-
-    /*FAQS*/
-
-    .faqs__wrapper {
-        grid-template-columns: 1fr;
-    }
-
-
-    /*TESTIMONIALS*/
-    .testimonials {
-        width: 75%;
-    }
-
-    
-    /*FOOTER*/
-
-    .footer__container {
-        grid-template-columns: 1fr 1fr;
-        gap: 4rem;
-    }
- }
-
-
-
-
- /* MEDIA QUERIES (small screens)*/
- @media screen and (max-width:600px) {
-/*MAIN HEADER*/
-    .main__header {
-        margin-top: 0;
-        padding: 12rem 0 0;
-        height: 100vh;
-    }
-
-    .main__header-image, .main__header-circle {
-        display: none;
-    }
-
-    .main__header-container {
-        grid-template-columns: 1fr;
-    }
-
-    /*PROGRAMS*/
-
-    .programs__wrapper {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        margin-top: 3rem;
-    }
-
-    .programs__program {
-        width: 84%;
-        margin: 0 auto;
-    }
-
-    /*VALUES*/
-
-    .values__wrapper {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
-
-    .card.values__value {
-        width: 84%;
-        margin-inline: auto;
-    }
-
-    /*FAQs*/
-
-    .faqs__wrapper {
-        gap: 1rem;
-        margin-top: 3rem;
-    }
-
-    /*TESTIMONIALS*/
-    .testimonials {
-        width: 100%;
-    }
-
-    /*FOOTER*/
-
-    .footer {
-        margin-top: 7rem;
-    }
-    .faqs__container {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
-    .footer__container article {
-        align-items: center;
-    }
-
-    .footer__container article p {
-        text-align: center;
-    }
-
-    .footer__container article h4 {
-        margin-bottom: 0.6rem;
-        font-size: 1rem;
-    }
-
-    .footer__socials {
-        margin-top: 1.5rem;
-        display: flex;
-        gap: 1rem;
-        align-items: center;
-    }
-
-    .footer__socials a {
-        background: var(--color-gray-100);
-        padding: 0.7rem;
-        border: 1px solid transparent;
-        border-radius: 0.6rem;
-        transition: var(--trabsition);
-    }
-
-    .footer__socials a svg {
-        color: var(--color-gray-600);
-    }
-
-    .footer__socials a:hover {
-        border-color: var(--color-gray-100);
-        background-color: transparent;
-    }
-
- }
-
-
-
-
 
 
 

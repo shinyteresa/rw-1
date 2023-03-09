@@ -13,7 +13,7 @@ const Programs = () => {
         <div className="container programs__container">
            <SectionHead icon={<FaCrown/>} title="Programs"/>
 
-        </div>
+
         <div className="programs__wrapper">
           {
             programs.map(({id, icon, title, info, path}) => {
@@ -27,6 +27,7 @@ const Programs = () => {
               )
             })
           }
+          </div>
           </div>
     </section>
   )

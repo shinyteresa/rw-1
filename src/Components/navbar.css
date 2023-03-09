@@ -35,6 +35,7 @@ nav {
     display: flex;
     gap: 3.5rem;
     align-items: center;
+    perspective: 400px;
 }
 
 .nav__links a{

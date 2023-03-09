@@ -3,6 +3,7 @@
     overflow: hidden;
     transform: skew(15deg);
     transition: var(--transition);
+    float: left;
 }
 
 .about__section-image:nth-child(2) {
@@ -32,12 +33,20 @@
     grid-template-columns: 50% 50%;
     gap: 10%;
 }
+.about__story .about__story-container {
+    grid-template-columns: 1fr 1fr;;
+}
+
+.about__Vision .about__vision-container {
+    grid-template-columns: 1fr 1fr;
+}
+
+.about__mission .about__mission-container {
+    grid-template-columns: 1fr 1fr;
+}
 
 
-
-
-
-/*MEDIA QUERIES (medium screens)*/
+/*MEDIA QUERIES (medium screens)
 @media screen and (max-width: 1024px) {
     .about__section-image {
         width: 60%;
@@ -55,7 +64,7 @@
     .about__vision .about__section-image {
         grid-row: 1;
     }
-}
+}*/
 
 
 

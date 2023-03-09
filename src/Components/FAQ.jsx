@@ -3,8 +3,6 @@ import {AiOutlinePlus} from 'react-icons/ai'
 import { AiOutlineMinus } from 'react-icons/ai'
 
 
-
-
 const FAQ = ({question, answer}) => {
   const [isAnswerShowing, setIsAnswerShowing] = useState(false);
   return (
