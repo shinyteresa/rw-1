@@ -6,7 +6,6 @@ import Testimonials from '../../Components/Testimonials'
 
 
 
-
 import './home.css'
 const Home = () => {
   return (

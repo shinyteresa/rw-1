@@ -64,9 +64,6 @@
     margin-top: 4rem;
 }
 
-.programs__container {
-    
-}
 
 .programs__wrapper {
     display: grid;
@@ -193,7 +190,6 @@
 
 
 /*=============TESTIMONIALS=================*/
-
 .testimonials {
     width: 50rem;
     margin-inline: auto;
@@ -219,7 +215,6 @@
     top: -2rem;
     left: calc(50% - 2rem);
     box-shadow: 0 1.5rem 2rem rgba(26, 26, 54, 0.4);
-    transition: var(--transition);
 }
 
 .testimonial:hover .testimonial__avatar {
@@ -232,7 +227,7 @@
     margin: 1rem 0 2rem;
 }
 
-.Card small.testimonial__title {
+.card small.testimonial__title {
     margin-top: 0.3rem;
 }
 
