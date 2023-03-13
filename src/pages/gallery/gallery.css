@@ -15,7 +15,7 @@
 
 
 
-/*MEDIA QUERIES (medium screens)*/
+/*MEDIA QUERIES (medium screens)
 @media screen and (max-width: 1024px) {
     .gallery__container {
         grid-template-columns: 1fr 1fr;
@@ -27,10 +27,10 @@
     }
 } 
 
-/*MEDIA QUERIES (small screens)*/
+/*MEDIA QUERIES (small screens)
 @media screen and (max-width: 600px) {
     .gallery__container {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
-}
+}*/

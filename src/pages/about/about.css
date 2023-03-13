@@ -24,18 +24,16 @@
 
 .about__story-container, .about__mission-container {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 50%;
     gap: 10%;
 }
 
 .about__vision-container {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 50%;
     gap: 10%;
 }
-.about__story .about__story-container {
-    grid-template-columns: 1fr 1fr;;
-}
+
 
 .about__Vision .about__vision-container {
     grid-template-columns: 1fr 1fr;
@@ -44,7 +42,6 @@
 .about__mission .about__mission-container {
     grid-template-columns: 1fr 1fr;
 }
-
 
 /*MEDIA QUERIES (medium screens)
 @media screen and (max-width: 1024px) {

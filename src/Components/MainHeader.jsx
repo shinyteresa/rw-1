@@ -16,7 +16,7 @@ const MainHeader = () => {
         </div>
         <div className="main__header-right">
         <div className="main__header-circle"></div>
-        <div className="main__header-images">
+        <div className="main__header-image">
           <img src={Image} alt="Main Header Image" />
         </div>
         </div>

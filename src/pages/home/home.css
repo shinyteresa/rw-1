@@ -50,7 +50,7 @@
     transition: var(--transition);
 }
 
-.main__header-images {
+.main__header-image {
     position: relative;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .values__right > p {
-    margin: '1.5rem 0 5rem';
+    margin: 1.5rem 0 5rem;
 }
 
 .values__wrapper {

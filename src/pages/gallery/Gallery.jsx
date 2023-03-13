@@ -21,9 +21,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore odio maiores ad
       <div className="container gallery__container">
         {
           images.map((image, index) => {
-            return <articel key={index}>
+            return <article key={index}>
               <img src={image} alt={`Gallery Image ${index + 1}`} />
-            </articel>
+            </article>
           })
         }
       </div>
